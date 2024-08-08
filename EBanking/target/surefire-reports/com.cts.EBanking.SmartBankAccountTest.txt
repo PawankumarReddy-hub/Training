@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.cts.EBanking.SmartBankAccountTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.859 s <<< FAILURE! - in com.cts.EBanking.SmartBankAccountTest
+testCalculateFixedAccount(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.467 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testCalculateRecurringAccount(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.035 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testRecurringGreaterThan50k(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.028 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testFixedGreaterThan10lac(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.022 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testRecurringLessK(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.041 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testRecurringGreaterThan60(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.028 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testFixedgreaterThan120(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.038 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testDoWithdrawNegative(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.034 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testParameterizedConstructorPresent(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.018 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testCustomerName(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.031 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testDoWithdraw(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.028 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testCustomerId(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.05 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testDoDeposit(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.011 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+
+testFixedLess10K(com.cts.EBanking.SmartBankAccountTest)  Time elapsed: 0.023 s  <<< ERROR!
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'smartBankAccount' available
+	at com.cts.EBanking.SmartBankAccountTest.setUp(SmartBankAccountTest.java:21)
+

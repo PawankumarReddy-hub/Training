@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+
+  <groupId>com.org</groupId>
+  <artifactId>DemoMaven</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>Sample Apache Brooklyn Project com.org:DemoMaven v0.0.1-SNAPSHOT</name>
+  <description>
+    Sample Apache Brooklyn Project for Java entity development, and OSGi bundle generation.
+  </description>
+
+  <!-- Optional metadata (commented out in this sample) 
+
+  <url>https://github.com/acme/sample</url>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Sample Project Committers</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/acme/sample</connection>
+    <developerConnection>scm:git:git@github.com:acme/sample.git</developerConnection>
+    <url>http://github.com/acme/sample</url>
+  </scm>
+
+  -->
+
+  <dependencies>
+
+ 
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>5.3.20</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>5.3.20</version>
+</dependency>
+
+    <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-aop</artifactId>
+    <version>6.1.6</version>
+</dependency>
+<dependency>
+<groupId>org.aspectj</groupId>
+<artifactId>aspectjrt</artifactId>
+<version>1.9.7</version>
+</dependency>
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.6</version>
+    <scope>runtime</scope>
+</dependency>
+<!-- Test Dependencies-->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.5.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.5.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.2.2.RELEASE</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <!-- Important for Jupiter-engine -->
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M3</version>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

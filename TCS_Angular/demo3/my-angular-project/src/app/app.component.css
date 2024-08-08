@@ -1,0 +1,32 @@
+/* General styles for the app container */
+app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Styles for navigation */
+  nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for the main content */
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  

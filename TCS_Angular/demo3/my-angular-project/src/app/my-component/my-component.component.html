@@ -1,0 +1,22 @@
+<!-- my-component.component.html -->
+<!-- <div class="my-component">
+    <h2>Welcome to My Component!</h2>
+    <p>This is a description of what My Component does.</p>
+    <button (click)="handleClick()">Click Me!</button>
+  </div> -->
+<!-- src/app/my-component/my-component.component.html -->
+<div class="my-component">
+    <h2>Welcome to My Component!</h2>
+    <p>Hello, {{ userName }}!</p>
+    <img [src]="imageUrl" alt="Dynamic Image">
+    <button (click)="handleClick()">Click Me!</button>
+  </div>
+<!-- src/app/my-component/my-component.component.html -->
+<form (ngSubmit)="onSubmit()" #form="ngForm">
+    <input [(ngModel)]="model.name" name="name" required placeholder="Enter your name">
+    <button type="submit">Submit</button>
+  </form>
+  <p>{{ form.value | json }}</p>
+
+  <!-- src/app/my-component/my-component.component.html -->
+<!-- <p>{{ 'Angular' | reverse }}</p> -->

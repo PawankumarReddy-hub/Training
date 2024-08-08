@@ -1,0 +1,8 @@
+<!-- src/app/discount/discount.component.html -->
+<div class="discount">
+    <h2>Special Discount Offer!</h2>
+    <p *ngIf="isDiscountAvailable">Get 20% off on your next purchase.</p>
+    <p *ngIf="!isDiscountAvailable">No discounts available at the moment.</p>
+    <button (click)="claimDiscount()">Claim Your Discount</button>
+  </div>
+  
